@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{9cd68374-dd61-407d-8f6e-31c6808cdf7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Headers">
+      <UniqueIdentifier>{9b21a5ba-b3f0-4c14-b8a8-950d25bec6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{e7d40397-2564-4a3e-bd91-1b6e04ce69e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{c42cd2f5-d456-4c7a-9467-ddb6df9db280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\imgs">
+      <UniqueIdentifier>{4d9fd3c2-8288-4ab7-b905-6302041c40ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\imgs\buttons">
+      <UniqueIdentifier>{67bdd583-ba57-43ff-a7fc-941911d9da6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sounds">
+      <UniqueIdentifier>{235c271a-5022-40ab-b84f-ed009f74dff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LOTile.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME3001_Pandya_Hiren_Proj_M3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\imgs\a1.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\a2.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\Arrow.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\bg.jpg">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\bg2.jpg">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\bg3.jpg">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\bgtitle.jpg">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\castle.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\enemy.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\gaurdSprite.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\guard.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\instructions.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\panel.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\titlebg.jpg">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\weaponsPanel.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\btn_controls.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\btn_exit.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\btn_newgame.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\bgnew.jpg">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\bgd.jpg">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\goblin.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\exitGame.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\newGame.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\pause.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\resume.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\shop.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\buyitem.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\closeshop.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\gamepausebtn.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\buttons\gameshopbtn.png">
+      <Filter>Assets\imgs\buttons</Filter>
+    </Image>
+    <Image Include="Assets\imgs\firearrow.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\firecannon.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\icearrow.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\icecannon.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\missile.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+    <Image Include="Assets\imgs\treerootarrow.png">
+      <Filter>Assets\imgs</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\imgs\lazy.ttf">
+      <Filter>Assets\imgs</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\sounds\btnClick.wav">
+      <Filter>Assets\sounds</Filter>
+    </Media>
+    <Media Include="Assets\sounds\btnHover.wav">
+      <Filter>Assets\sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
